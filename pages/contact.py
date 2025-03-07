@@ -55,7 +55,7 @@ def send_message_success():
 
 def contact():
     return layout(
-        "Contato | Meu Site",
+        "Contato | Tecnologia",
         Div(
             H1("Contato", cls="mysite__title"),
             form_content()

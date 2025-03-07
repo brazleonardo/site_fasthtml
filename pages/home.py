@@ -3,7 +3,7 @@ from components.layout import layout
 
 def home():
     return layout(
-        "Meu Site",
+        "Tecnologia que simplifica o dia a dia",
         Div(
             H1("Início", cls="mysite__title")
         ),  

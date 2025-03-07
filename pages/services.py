@@ -3,7 +3,7 @@ from components.layout import layout
 
 def services():
     return layout(
-        "Serviços | Meu Site",
+        "Serviços | Tecnologia",
         Div(
             H1("Serviços", cls="mysite__title")
         )

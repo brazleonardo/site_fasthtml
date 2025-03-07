@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+    background-color: #f1f1e8;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.mysite__header {
+    width: 100%;
+    height: 80px;
+    background-color: #00023b;
+}
+
+.mysite__header .mysite__header--container {
+    max-width: 1400px;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mysite__header .mysite__header--container img {
+    width: auto;
+    height: 60px;
+}
+
+.mysite__header .mysite__header--container .mysite__header--logo,
+.mysite__header .mysite__header--container .mysite__header--logo img {
+    display: block;
+}
+
+.mysite__header .mysite__header--container ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.mysite__header .mysite__header--container ul li a,
+.mysite__header .mysite__header--container ul li span {
+    color: #fff;
+    font-size: 16px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: block;
+}
+.mysite__header .mysite__header--container ul li .mysite__home {
+    cursor: default;
+}
+
+.mysite__container {
+    max-width: 1400px;
+    width: 100%;
+    margin: 30px auto;
+}
+
+.mysite__title {
+    font-size: 24px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #333;
+}
+
+.mysite__form--control {
+    height: 40px;
+    font-size: 16px;
+    padding: 5px 10px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+.mysite__form--control:focus {
+    outline: none;
+    box-shadow: none;
+}
+textarea.mysite__form--control {
+    min-height: 80px;
+    max-height: 220px;
+    resize: vertical;
+}
+.mysite__form--group-error .mysite__form--control {
+    border-color: #e91d1d;
+}
+
+.mysite__form {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 40px;
+}
+
+.mysite__form .mysite__form--group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 30px;
+}
+
+.mysite__form .mysite__form--group label {
+    font-size: 16px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #333;
+}
+
+.mysite__button--primary {
+    height: 48px;
+    font-size: 18px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+    background-color: #2ea591;
+    padding: 10px 30px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+}
+.mysite__button--primary:hover {
+    background-color: #2fb8a1;
+}
+.mysite__button--secondary {
+    height: 48px;
+    font-size: 18px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+    background-color: #2e6fa5;
+    padding: 10px 30px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mysite__button--secondary:hover {
+    background-color: #347db8;
+}
+
+.mysite_msg--success {
+    font-size: 16px;
+    font-weight: bold;
+    color: #2ea591;
+    margin-bottom: 30px;
+}
